@@ -1,0 +1,557 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+											/*Header*/
+header {
+	background-image: url("http://healthcoach.stylemixthemes.com/wp-content/uploads/2015/09/slider_1_bg_01-min.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	z-index: -1;
+}
+.nav-img {
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 100%;
+}
+#logo {
+	margin-left: 40px;
+	padding-top: 10px;
+	padding-left: 80px;
+	width: 13%;
+	float: left;
+}
+nav ul {
+	left: 50%;
+}
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-family: "Open+Sans", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+#headerimg {
+	width: 80%;
+	float: left;
+	margin-left: -200px;
+	margin-bottom: -220px;
+	margin-top: 40px;
+	/*border-style: solid;
+	border-color: red;*/
+}
+#burger {
+	display: none;
+}
+h1 {
+	font-family: "Oregano";
+	font-size: 50px;
+	font-weight: 400;
+	color: white;
+}
+p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: white;
+}
+#introduction {
+	display: inline-block;
+	position: relative;
+	left: -20%;
+	top: 150px;
+	color: white;
+}
+#introduction a {
+	text-decoration: none;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 15px 30px;
+	border: 2px solid white;
+	border-radius: 30px;
+}
+											/*End of header*/
+											/*S1 - why-health-coach*/
+#why-health-coach {
+	height: 400px;
+	position: relative;
+	margin-top: 20px;
+}
+#why-health-coach h2 {
+	text-align: center;
+	font-family: "Oregano";
+	font-weight: 400;
+	font-size: 2em;
+	position: relative;
+	z-index: 100;
+}
+#why-health-coach h2:before {
+	content: " ";
+	width: 139px;
+	height: 139px;
+	display: block;
+	border-radius: 50%;
+	background-color: white;
+	border: 1px solid white;
+	border-bottom: 2px solid #2acd35;
+	position: absolute;
+	top: -120%;
+	left: 45%;
+	z-index: -100;
+}
+#lista {
+	text-align: center;
+	width: 100%;
+	height: 250px;
+	padding-top: 20px;
+	position: absolute;
+	transform: translate(0%, 25%);  /* Standard syntax */
+   -ms-transform: translate(0%, 25%); /* IE 9 */
+   -webkit-transform: translate(0%, 25%); /* Safari */
+}
+#lista li {
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	border: 1px solid gray;
+	margin: 0px 20px;
+	padding: 40px 50px;
+}
+#why-health-coach h4 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+.hidden {
+	display: none;
+}
+.whc-icon {
+	color: #2acd35;
+	font-size: 4em;
+	padding: 20px 0px 40px 0px;
+}
+#section1-ending {
+	display: block;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	color: gray;
+	padding-bottom: 40px;
+}
+#section1-ending a {
+	color: #2acd35;
+}
+											/*end S1 why-health-coach*/
+											/*S2 - don't wait tomorrow*/
+#not-tomorrow {
+	margin-top: 20px;
+	background-color: #f5f4f3;
+	padding-bottom: 60px;
+	height: 400px;
+	position: relative;
+	z-index: -200;
+}
+.not-tomorrow-img {
+	width: 100%;
+	margin: 0px;
+}
+.not-tomorrow-icon {
+	padding-bottom: 10px;
+	color: #2acd35;
+
+}
+#not-tomorrow ul {
+	text-align: center;
+	width: 80%;
+	margin: 40px 0px;
+	position: absolute;
+	transform: translate(12%, 0%);  /* Standard syntax */
+   -ms-transform: translate(12%, 0%); /* IE 9 */
+   -webkit-transform: translate(12%, 0%); /* Safari */
+}
+#not-tomorrow ul li {
+	display: inline-block;
+	width: 30%;
+	border-bottom: 2px solid lightgrey;
+	text-align: center;
+	margin: 0px 10px;
+}
+.text-over-image {
+	background-color: white;
+	position: relative;
+	margin-top: -90px;
+	padding: 20px;
+}
+#not-tomorrow h2 {
+	margin-bottom: 40px;
+	padding-top: 20px;
+}
+#not-tomorrow h2 a {
+	color: #444444;
+}
+#not-tomorrow h2:before {
+	content: " ";
+	width: 139px;
+	height: 139px;
+	display: block;
+	border-radius: 50%;
+	background-color: #f5f4f3;
+	border: 1px solid white;
+	border-bottom: 2px solid #2acd35;
+	position: absolute;
+	top: -8%;
+	left: 45%;
+	z-index: -100;
+}
+.more-info {
+	display: none;
+}
+h2 {
+	text-align: center;
+	font-family: "Oregano";
+	font-size: 2em;
+	font-weight: 400;
+	color: #444444;
+}
+												/*End S 2 - not-tomorrow*/
+												/*S 3 - 3 months*/
+#months {
+	background-image: url("http://healthcoach.stylemixthemes.com/wp-content/uploads/2015/08/info-block-bg-1-min.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 120px;
+}
+h3 {
+	font-family: "Oregano";
+	font-size: 45px;
+	font-weight: 400;
+	color: white;
+}
+#months p {
+	color: lightgrey;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+}
+#months a {
+	text-decoration: none;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 15px 30px;
+	border: 2px solid white;
+	border-radius: 30px;
+}
+												/*End of section 3 - months*/
+#news p {
+	display: none;
+}
+#news ul {
+	width: 80%;
+	margin-left: 120px;
+}
+#news ul li {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 40px;
+	border-bottom: 1px solid lightgrey;
+}
+#news img {
+	width: 100%;
+	height: 200px;
+}
+#news h4 a {
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	color: grey;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.info-over-image {
+	background-color: white;
+	position: relative;
+	margin-top: -60px;
+	padding: 20px;
+}
+#news h2 {
+	position: relative;
+	z-index: 100;
+}
+#news h2:before {
+	content: "  ";
+	width: 139px;
+	height: 139px;
+	display: block;
+	border: 1px solid white;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	top: -190%;
+	left: 45%;
+	z-index: -100;
+	border-bottom: 2px solid #2acd35;
+}
+
+												/*ENd of section 4 - news*/
+#coffees-and-teas {
+	background-image: url("http://healthcoach.stylemixthemes.com/wp-content/uploads/2015/08/block-info-bg-2_02-min.jpg?id=1836");
+	padding: 100px 100px;
+	margin-top: 60px;
+	text-align: center;
+}
+#coffees-and-teas p {
+	padding-top: 20px;
+}
+.tea-leaf {
+	color: white;
+	font-size: 15px;
+	padding: 10px;
+	margin-bottom: 60px;
+	border: 2px solid white;
+}
+												/*End of section 5 - coffee*/
+#success-stories {
+	margin-top: 40px;
+	position: relative;
+}
+#success-stories h2 a {
+	text-decoration: none;
+	color: #444444;
+}
+#before-container {
+	top: 100px;
+	left: 90px;
+	float: left;
+	padding: 20px;
+	border: 1px solid lightgrey;
+	background-color: white;
+	position: absolute;
+	z-index: -1;
+}
+#after-container {
+	margin-left: 300px;
+	margin-top: 120px;
+	padding: 20px;
+	border: 1px solid lightgrey;
+	background-color: white;
+	display: inline-block;
+	float: left;
+}
+.spantext {
+	text-align: center;
+	font-family: "Oregano";
+	color: #2acd35;
+	padding-left: 40%;
+}
+
+#success-stories-text {
+	display: inline-block;
+	float: left;
+	width: 40%;
+	margin-top: 120px;
+	margin-left: 70px;
+}
+#success-stories p {
+	color: #444444;
+	font-family: "Open Sans", sans-serif;
+	padding-top: 10px;
+}
+#success-stories h4 a {
+	text-decoration: none;
+	color: #2acd35;
+	font-family: "Open Sans", sans-serif;
+}
+#success-stories h2 {
+	position: relative;
+	z-index: 100;
+}
+#success-stories h2:before {
+	content: "  ";
+	width: 139px;
+	height: 139px;
+	display: block;
+	border: 1px solid white;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	top: -170%;
+	left: 45%;
+	z-index: -100;
+	border-bottom: 2px solid #2acd35;
+}
+												/*End of section 6 - success stories*/
+#form {
+	margin-top: 40px;
+	background-image: url("http://healthcoach.stylemixthemes.com/wp-content/uploads/2015/08/Untitled-2_02-min.jpg?id=1838");
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 50px;
+}
+#form p {
+	padding-top: 20px;
+	margin-bottom: 60px;
+}
+form {
+	border: 1px solid white;
+	border-radius: 8px;
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	padding-top: 15px;
+}
+.personal-info {
+	width: 25%;
+	padding: 10px;
+	margin: 20px;
+	border: 2px solid lightgrey;
+}
+.contact-text {
+	width: 90%;
+	border: 2px solid lightgrey;
+	margin-bottom: 20px;
+}
+.submit-button {
+	padding: 15px 30px;
+	border: 1px solid #2acd35;
+	border-radius: 30px;
+	background-color: #2acd35;
+	text-decoration: none;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	margin: auto;
+}
+														/*end sect 7 - form*/
+footer {
+	background-color: black;
+	margin-top: 60px;
+}
+#shop {
+	width: 80%;
+	margin: auto;
+	background-color: #333;
+}
+#shop img {
+	float: left;
+	padding: 10px 30px 0px 20px;
+}
+#shop i {
+	float: left;
+	margin-top: 50px;
+	margin-left: 30px;
+	color: #2acd35;
+}
+#shop h3 {
+	margin-top: 50px;
+	color: #2acd35;
+	display: inline-block;
+	margin-left: 20px;
+}
+#shop p {
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 15px;
+	color: lightgrey;
+	font-weight: bold;
+}
+.fa-long-arrow-right {
+	color: grey !important;
+	font-size: 50px !important;
+}
+footer h4 {
+	color: #2acd35;
+	font-family: "Oregano";
+}
+footer a {
+	color: grey;
+	font-family: "Open Sans", sans-serif;
+}
+footer p {
+	color: lightgrey;
+}
+#about-us, #find-us, #pages, #instagram {
+	display: inline-block;
+	width: 20%;
+	margin-top: 40px;
+	padding-right: 30px;
+	margin-right: 15px;
+}
+#about-us h4, #find-us h4, #pages h4, #instagram h4 {
+	padding-bottom: 20px;
+}
+#about-us p, #find-us p, #pages p, #instagram p {
+	font-size: 13px;
+}	
+.shop-wrapper {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 30px;
+}
+.fa-twitter, .fa-facebook-square, .fa-instagram {
+	float: left;
+	padding-right: 20px;
+}
+.info {
+	background-color: #333;
+	margin: auto;
+	text-align: center;
+}
+.info p {
+	display: inline-block;
+}
+#copy {
+	padding-right: 150px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+	#introduction {
+		display: none;
+	}
+	nav {
+		display: none;
+	}
+	#burger {
+		display: block;
+		float: right;
+		text-decoration: none;
+		color: white;
+		padding-right: 20px;
+		padding-top: 15px;
+	}
+}
